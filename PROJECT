@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: operator-mysql
 repo: brickmaker.github.io/operator-mysql
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: brickmaker.github.io
+  group: k8s
+  kind: MySQL
+  path: brickmaker.github.io/operator-mysql/api/v1
+  version: v1
 version: "3"
