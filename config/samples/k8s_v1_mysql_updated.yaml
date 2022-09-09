@@ -1,0 +1,10 @@
+apiVersion: k8s.brickmaker.github.io/v1
+kind: MySQL
+metadata:
+  name: mysql-sample
+spec:
+  version: "8.0"
+  replicas: 2
+status:
+  code: success
+  message: "Success"
