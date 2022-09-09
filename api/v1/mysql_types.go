@@ -29,13 +29,17 @@ type MySQLSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of MySQL. Edit mysql_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Version  string `json:"version"`
+	Replicas *int32 `json:"replicas"`
 }
 
 // MySQLStatus defines the observed state of MySQL
 type MySQLStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+
+	Code    string `json:"code"`
+	Message string `json:"message"`
 }
 
 //+kubebuilder:object:root=true

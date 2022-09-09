@@ -15,8 +15,8 @@ limitations under the License.
 */
 
 // Package v1 contains API Schema definitions for the k8s v1 API group
-//+kubebuilder:object:generate=true
-//+groupName=k8s.brickmaker.github.io
+// +kubebuilder:object:generate=true
+// +groupName=k8s.brickmaker.github.io
 package v1
 
 import (
