@@ -1,0 +1,6 @@
+domain: brickmaker.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: operator-mysql
+repo: brickmaker.github.io/operator-mysql
+version: "3"
